@@ -18,8 +18,8 @@ https://i.imgur.com/MqEqfa0.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- https://github.com/TomasBrod009/Perfume-page-demo
+- https://tomasbrod009.github.io/Perfume-page-demo/
 
 ## My process
 
