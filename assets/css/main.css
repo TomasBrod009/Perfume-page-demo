@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap");
+/*Colors*/
+/* Fonts */
+/* *{
+    margin: 0;
+    padding: 0;
+}
+ */
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #f2ebe3; }
+
+.hidden {
+  text-align: center;
+  align-items: center; }
+
+.attribution {
+  display: grid;
+  width: 780px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10%;
+  transform: translateY(120px);
+  padding: auto;
+  margin: auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+  .attribution .image-desktop {
+    width: auto;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%; }
+  .attribution .image-desktop:nth-of-type(1) {
+    grid-column: 1 / 7;
+    grid-row: 1 / 4; }
+  .attribution .subtitle {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #6c7289;
+    grid-column: 8 / 13;
+    grid-row: 1 / 1; }
+  .attribution .title {
+    margin-top: 75px;
+    margin-right: 55px;
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    grid-column: 8 / 13;
+    grid-row: 1 / 1; }
+  .attribution .text {
+    grid-column: 8 / 13;
+    grid-row: 1 / 1;
+    margin-top: 220px;
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289; }
+  .attribution .price1 {
+    grid-column: 8 / 13;
+    grid-row: 2 / 2;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    color: green; }
+  .attribution .price2 {
+    grid-column: 11 / 13;
+    grid-row: 2 / 2;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289;
+    text-decoration: line-through;
+    font-size: 14px; }
+  .attribution .cart-botton {
+    width: 205px;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: green;
+    grid-column: 8 / 13;
+    grid-row: 3 / 3; }
+  .attribution .cart-botton:hover {
+    background: #1e4721;
+    transition: all 0.5s ease;
+    color: #fff !important; }
+  .attribution .cart-text {
+    grid-column: 8 / 13;
+    grid-row: 3 / 3;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 17px; }
+  .attribution .cart {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-35px); }
+
+@media screen and (min-width: 376px) {
+  .image-mobile {
+    display: none; } }
+
+@media screen and (max-width: 375px) {
+  .image-desktop {
+    display: none; }
+  .attribution {
+    display: grid;
+    width: 300px;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr); }
+  .image-mobile {
+    width: 300px;
+    height: 210px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5%; }
+  .image-mobile:nth-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 1 / 1; }
+  .subtitle:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 2/ 2;
+    font-size: 10px;
+    padding-left: 20px;
+    letter-spacing: 5px; }
+  .title:nth-of-type(1) {
+    font-size: 25px;
+    font-family: "Fraunces", serif;
+    grid-column: 1 / 2;
+    grid-row: 2/ 2;
+    padding-left: 20px; }
+  .text:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289;
+    padding-left: 20px;
+    transform: translateY(-50px); }
+  .price1:nth-last-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 30px;
+    transform: translateY(-25px);
+    color: green; }
+  .price2:nth-of-type(2) {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+    margin: 0;
+    padding-left: 180px;
+    transform: translateY(-21px);
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289;
+    text-decoration: line-through;
+    font-size: 18px; }
+  .cart-botton:nth-of-type(1) {
+    width: 205px;
+    height: 50px;
+    border-radius: 15px;
+    transform: translateX(44px);
+    background-color: green;
+    grid-column: 1/ 3;
+    grid-row: 3 / 3; }
+  .cart-botton:hover {
+    background: #1e4721;
+    transition: all 0.5s ease;
+    color: #fff !important; }
+  .cart-text:nth-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 17px; } }

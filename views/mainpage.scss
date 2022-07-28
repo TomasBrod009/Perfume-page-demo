@@ -1,0 +1,105 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+ */
+html{
+    font-size: 62.5%;
+}
+body{
+background-color: $primary;}
+.hidden{
+    text-align: center;
+    align-items: center;
+}
+.attribution{
+        display: grid;
+        width: 780px;
+        height: 600px;
+        background-color: white;
+        border-radius: 10%;
+        transform: translateY(120px);
+        padding: auto;
+        margin: auto;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        .image-desktop{
+            width: auto;
+            height: 100%;
+            border-top-left-radius: 3%;
+            border-bottom-left-radius: 3%;
+        }
+        .image-desktop:nth-of-type(1){
+            grid-column: 1 / 7;
+            grid-row: 1 / 4;
+        }
+        .subtitle{
+            margin-top: 30px;
+            font-family: $font-secondary;
+            font-size: 18px;
+            letter-spacing: 5px;
+            color: $secondary;
+            grid-column: 8 / 13;
+            grid-row: 1 / 1;
+        }
+        .title{
+            margin-top: 75px;
+            margin-right: 55px;
+            font-family: $font-primary;
+            font-size: 35px;
+            grid-column: 8 / 13;
+            grid-row: 1 / 1;
+        }
+        .text{
+            grid-column: 8 / 13;
+            grid-row: 1 / 1;
+            margin-top: 220px;
+            font-family: $font-secondary;
+            color: $secondary;
+        }
+        .price1{
+            grid-column: 8 / 13;
+            grid-row: 2 / 2;
+            font-family: $font-primary;
+            font-size: 40px;
+            color: green;
+        }
+        .price2{
+            grid-column: 11 / 13;
+            grid-row: 2 / 2;
+            margin-top: 50px;
+            font-family: $font-secondary;
+            color: $secondary;
+            text-decoration: line-through;
+            font-size: 14px;
+        }
+        .cart-botton{
+            width: 205px;
+            height: 60px;
+            margin-top: 20px;
+            padding-left: 20px;
+            border-radius: 15px;
+            background-color: green;
+            grid-column: 8 / 13;
+            grid-row: 3 / 3;
+        }
+        .cart-botton:hover{
+            background: #1e4721;
+            transition: all 0.5s ease;
+            color: #fff !important;
+        }
+        .cart-text{
+            grid-column: 8 / 13;
+            grid-row: 3 / 3;
+            font-family: $font-secondary;
+            text-align: center;
+            color: white;
+            font-size: 17px;
+        }
+        .cart{
+            width: 30px;
+            height: 30px;
+            transform: translateY(-35px);
+        }
+}
+

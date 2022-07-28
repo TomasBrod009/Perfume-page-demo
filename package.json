@@ -1,0 +1,26 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss ./assets/css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "abbrev": "^1.1.1",
+    "agent-base": "^6.0.2",
+    "agentkeepalive": "^4.2.1",
+    "ansi-styles": "^4.3.0",
+    "aggregate-error": "^3.1.0",
+    "anymatch": "^3.1.2",
+    "ansi-regex": "^5.0.1"}}
+  
